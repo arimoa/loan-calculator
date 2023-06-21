@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loan Calculator</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Loan Calculator</h1>
+      <label for="amount">Loan Amount $:</label>
+      <input id="amount" type="number" min="1" />
+      <label for="rate">Rate %:</label>
+      <input id="rate" type="number" min="0" max="100" />
+      <label for="months">Months to pay:</label>
+      <input id="months" type="number" min="1" />
+      <p id="result">Your Monthly Payment: <span id="final-result"> </span></p>
+    </div>
+  </body>
+</html>
