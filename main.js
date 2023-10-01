@@ -50,4 +50,4 @@ monthsEl.addEventListener("input", (e) => {
   if (amountEl.value !== " " && rateEl.value !== "") {
     resultEl.innerHTML = result.toFixed(2) + " $";
   }
-});
+}); 
